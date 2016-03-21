@@ -1,0 +1,57 @@
+body {
+    margin: 0 auto;
+
+    width: 800px;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+
+    background-color: greenyellow;
+}
+
+.page {
+    position: relative;
+
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+    width: 100%;
+    height: 500px;
+}
+
+.menu {
+    position: absolute;
+    left: 600px;
+    margin-left: 4px;
+
+    width: 196px;
+    height: 70%;
+
+    background-color: orange;
+}
+
+.menu p {
+    text-align: center;
+}
+
+.menu .bottPadd {
+    padding-bottom: 10px;
+}
+
+.content {
+    position: absolute;
+
+    width: 600px;
+    height: 100%;
+
+    background-color: aqua;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+
+    background-color: dimgray;
+}
