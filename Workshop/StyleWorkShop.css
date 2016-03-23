@@ -1,0 +1,153 @@
+html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100%;
+    width: 795px;
+    margin: 0 auto;
+}
+
+.container {
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+    .header {
+        border: 1px solid black;
+        background-color: gainsboro;
+        padding: 10px 10px 18px 10px;
+    }
+
+        .logo {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .header-h1 {
+            font-size: 24px;
+            color: gray;
+        }
+
+        .header-span {
+           font-size: 14px;
+           color: gray;
+        }
+
+    .clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .upperNavi {
+        background-color: dimgray;
+    }
+        .upperNavi li {
+            display: inline-block;
+        }
+
+        .upperNavi a {
+            padding: 7px;
+            display: block;
+            font-size: 15px;
+            color: white;
+        }
+
+        .upperNavi a:hover {
+            background-color: white;
+            color: black;
+        }
+
+
+
+    .main {
+        position: relative;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .block-menu {
+        position: absolute;
+        height: 100%;
+        width: 224px;
+        background: url("col_left_bg1px.png") repeat-y;
+
+    }
+
+    .vertical-menu  ul {
+    }
+
+        .vertical-menu li {
+            display: inline-block;
+            background-color: dimgray;
+            margin-left: 12px;
+        }
+
+        .vertical-menu li:first-child {
+            margin-top: 12px;
+        }
+
+        .vertical-menu li:last-child {
+        }
+
+        .vertical-menu a {
+            display: block;
+            padding: 7px;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .vertical-menu a:hover {
+            background-color: white;
+            color: black;
+        }
+
+    .main-content {
+        position: relative;
+        left: 225px;
+        width: 549px;
+
+        padding-top: 1px;
+        padding-bottom: 35px;
+        padding-left: 20px;
+    }
+
+        .main-content h2 {
+            font-size: 18px;
+            margin-top: 10px;
+            margin-bottom: 9px;
+        }
+
+        .main-content h3 {
+            font-size: 16px;
+            margin-top: 10px;
+            margin-bottom: 9px;
+        }
+
+
+        .main-content p {
+            font-size: 15px;
+            padding-right: 10px;
+        }
+
+        .main-content ul {
+            padding-left: 38px;
+        }
+
+    .footer {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: 25px;
+        margin-top: -25px;
+        background-color: dimgray;
+    }
+
